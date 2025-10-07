@@ -1,4 +1,0 @@
-hoist: false
-packages:
-  - apps/*/
-  - packages/*/

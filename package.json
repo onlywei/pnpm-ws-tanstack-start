@@ -2,6 +2,10 @@
   "name": "pnpm-ws-tanstack-start",
   "description": "Trying to create a tanstack start app from scratch in a pnpm workspaces repo",
   "homepage": "https://github.com/onlywei/pnpm-ws-tanstack-start#readme",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "bugs": {
     "url": "https://github.com/onlywei/pnpm-ws-tanstack-start/issues"
   },
@@ -15,5 +19,5 @@
   "scripts": {
     "test": "exit 0"
   },
-  "packageManager": "pnpm@10.18.1+sha512.77a884a165cbba2d8d1c19e3b4880eee6d2fcabd0d879121e282196b80042351d5eb3ca0935fa599da1dc51265cc68816ad2bddd2a2de5ea9fdf92adbec7cd34"
+  "packageManager": "npm@11.6.1+sha512.ee20d21c3a2ea7ab8c409dfbc96ae17ea71b3211745047c645aa7a36ff9a29072b2095e50a2d9c29b8fbe5606688795cc2c402cbf534cc4c0365d031e87fd56b"
 }
